@@ -7,18 +7,16 @@
 #include <stdio.h>
 
 int main() {
-    int s;
-    int i;
-
-    i = 0;
-    while(i < 10) {
+    int s = 0;
+    int i = 1;
+    while(i <= 10) {
         s += i;
         i++;
     }
 
     // TODO: corrija o código acima e use printf para
     // mostrar a soma de 1 a 10
-
+    printf("Result: %d\n", s);
 
     // Configurações do mutirão. Não mexer.
     #include "../telemetry.c"

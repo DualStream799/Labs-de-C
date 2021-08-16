@@ -7,7 +7,17 @@
 #include <stdio.h>
 
 // TODO: declare função manhattan aqui. Veja abaixo como ela será usada
+int modulo (int n) {
+    if (n >= 0 ) {
+        return n;
+    } else {
+        return -n;
+    }
+}
 
+int manhattan(a1, a2, b1, b2) {
+    return modulo(a1-b1) + modulo(a2-b2);
+}
 
 int main() {
     

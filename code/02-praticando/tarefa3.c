@@ -9,9 +9,11 @@
 
 #define PI 3.141592
 
-void print_trigo(int a) {
-    printf("seno: %lf, cosseno: %lf\n", sin(a), cos(a));
+void print_trigo(int rad) {
+    double angle = (PI/180)*rad;
+    printf("seno: %lf, cosseno: %lf\n", sin(angle), cos(angle));
 }
+
 
 int main() {
     int angle;
