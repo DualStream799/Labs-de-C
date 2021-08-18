@@ -6,7 +6,7 @@
 
 #include <stdio.h>
 
-int main() {
+int main(int argc, char *argv[]) {
     
     // TODO implemente seu programa aqui
     int line_number;

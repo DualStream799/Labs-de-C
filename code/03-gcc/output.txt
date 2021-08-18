@@ -1,0 +1,10 @@
+Insert first value: Insert second value: 1 is not multiple of 57
+Insert first value: Insert second value: 75 is not multiple of 7
+Insert first value: Insert second value: 57 is not multiple of 55
+Insert first value: Insert second value: 18 is not multiple of 5
+Insert first value: Insert second value: 0 is multiple of 7
+Insert first value: Insert second value: 45 is not multiple of 8
+Insert first value: Insert second value: Invalid value
+Insert first value: Insert second value: 13 is not multiple of 68
+Insert first value: Insert second value: 6 is not multiple of 28
+Insert first value: Insert second value: Program ended
