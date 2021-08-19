@@ -9,14 +9,21 @@
 int main(int argc, char *argv[]) {
 
     /* TODO: conserte o código abaixo */
-	long vetor[5];
-	int i;
+    int size = 5;
+    long vector[size];
+    int i;
+
+    printf("Insert values:\n");
+
+    for (int i = 0; i < size; i++) {
+        scanf("%ld", &vector[i]);
+    }
 	
-	for(i = 0; i <= 5; i++) {
-		if (vetor[i] % 2 == 0) {
+	for(i = 0; i <= size; i++) {
+		if (vector[i] % 2 == 0) {
 			printf("Par! ");
 		}
-		printf("i: %d, vetor[i]: %ld\n", i, vetor[i]);
+		printf("i: %d, vetor[i]: %ld\n", i, vector[i]);
 	}
 
     // Configurações do mutirão. Não mexer.

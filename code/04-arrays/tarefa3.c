@@ -6,8 +6,18 @@
 
 #include <stdio.h>
 
-/* TODO: implemente sua função conta_a aqui */
+int conta_a(char array[]) {
+    int i = 0;
+    int contador = 0;
 
+    while (array[i] != '\0' && i < 100) {
+        if (array[i] == 'a') {
+            contador ++;
+        }
+        i ++;
+    }
+    return contador;
+}
 
 int main() {
     

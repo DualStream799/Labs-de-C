@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(int argc, char *argv[]) {
     int n1;
     int n2;
     int loop = 1;

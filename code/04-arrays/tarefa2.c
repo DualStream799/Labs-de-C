@@ -7,7 +7,14 @@
 #include <stdio.h>
 
 /* TODO: implemente sua função soma aqui */
+int soma(double vector[], int size) {
+    double s = 0;
 
+    for (int i = 0; i < size; i++) {
+        s += vector[i];
+    }
+    return s;
+}
 
 int main() {
     double arr1[] = {1, 2, 3, 4, 5, 6};
