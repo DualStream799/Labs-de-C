@@ -24,8 +24,10 @@ void escreve_imagem(int max[MAXH][MAXW], int h, int w) {
 void limiar(int max[MAXH][MAXW], int h, int w, int lim) {
     for (int i = 0; i < h; i++) {
         for (int j = 0; j < w; j++) {
-            if (max[i][j] < lim) {
-                max[i][j] = lim;
+            if (max[i][j] >= lim) {
+                max[i][j] = 255;
+            } else {
+                max[i][j] = 0;
             }
         }
     }
