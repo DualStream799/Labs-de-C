@@ -1,3 +1,0 @@
-/*
- * Escreva seu programa aqui!
- */
